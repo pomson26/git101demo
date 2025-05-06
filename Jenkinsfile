@@ -25,7 +25,7 @@ pipeline {
                 checkout scmGit(
                     branches: [[name: '*/master']],
                     userRemoteConfigs: [[
-                        credentialsId: 'ecr-push',
+                        credentialsId: '33c8457e-369a-4879-8303-33b925ae65d2',
                         url: 'https://github.com/pomson26/git101demo.git'
                     ]]
                 )     
